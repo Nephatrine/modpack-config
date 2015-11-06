@@ -88,28 +88,6 @@
             1
         ]
     },
-    "gravel-mountain": {
-        "template": "uniform",
-        "block": [
-            {"name": "minecraft:gravel", "weight": 90},
-            {"name": "TConstruct:GravelOre", "metadata": 5, "weight": 10}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 4,
-        "minHeight": 20,
-        "maxHeight": 40,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": "MOUNTAIN"}
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
     "sandstone-desert": {
         "template": "uniform",
         "block": [
@@ -241,7 +219,7 @@
             -1,
             1
         ]
-    }
+    },
     "gold": {
         "template": "normal",
         "block": "gold_ore",
@@ -490,11 +468,13 @@
         "minHeight": 5,
         "maxHeight": 122,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "none",
         "biomes": [
-            {"type": "dictionary", "entry": "NETHER"}
+            "all"
         ],
-        "dimensionRestriction": "none",
-        "dimensions": []
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
     }
 }
