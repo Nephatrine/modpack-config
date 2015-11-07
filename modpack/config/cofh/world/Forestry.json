@@ -1,0 +1,97 @@
+{
+    "apatite": {
+        "template": "normal",
+        "block": "Forestry:resources",
+		"material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 13,
+        "meanHeight": 103,
+        "maxVariance": 29,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "peat-dirt": {
+        "template": "uniform",
+        "block": {"name": "Forestry:soil", "metadata": 1},
+        "material": "minecraft:dirt",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 50,
+        "maxHeight": 70,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SWAMP"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1,
+            -1
+        ]
+    },
+    "peat-grass": {
+        "template": "uniform",
+        "block": {"name": "Forestry:soil", "metadata": 1},
+        "material": "minecraft:grass",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 60,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SWAMP"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1,
+            -1
+        ]
+    },
+    "tin": {
+        "template": "normal",
+        "block": {"name": "Forestry:resources", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 9,
+        "numClusters": 14,
+        "meanHeight": 49,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "tin-snowy": {
+        "template": "normal",
+        "block": {"name": "Forestry:resources", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 9,
+        "numClusters": 7,
+        "meanHeight": 49,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SNOWY"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
