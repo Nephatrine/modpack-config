@@ -1,0 +1,21 @@
+{
+    "resonating": {
+        "template": "normal",
+        "block": "deepresonance:oreResonating",
+		"material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "meanHeight": 5,
+        "maxVariance": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
