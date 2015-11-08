@@ -17,5 +17,43 @@
             -1,
             1
         ]
+    },
+    "tin": {
+        "template": "normal",
+        "block": {"name": "Mekanism:OreBlock", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 9,
+        "numClusters": 14,
+        "meanHeight": 49,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "tin-snowy": {
+        "template": "normal",
+        "block": {"name": "Mekanism:OreBlock", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 9,
+        "numClusters": 7,
+        "meanHeight": 49,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "SNOWY"}
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
     }
 }
